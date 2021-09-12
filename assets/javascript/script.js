@@ -2,7 +2,7 @@
 var time = moment().format('LT');
 //TODO: change hour back to moment before deploy
 var hour = moment().hour();
-// var hour = 10;
+// var hour = 11;
 console.log(time);
 console.log(`hour: ${hour}`)
 var day = moment().format('dddd');
